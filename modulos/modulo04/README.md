@@ -3,5 +3,5 @@
 </h1>
 
 <h3 align="center">
-  Módulo 5: Primeiro projeto com ReactJS
+  Módulo 4: Introdução ao React
 </h3>
