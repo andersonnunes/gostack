@@ -4,7 +4,7 @@ import { Form } from '@unform/web';
 import { FormHandles } from '@unform/core';
 import * as Yup from 'yup';
 
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '../../hooks/AuthContext';
 import getValidationsErrors from '../../utils/getValidationErrors';
 
 import logoImg from '../../assets/logo.svg';
@@ -12,6 +12,7 @@ import logoImg from '../../assets/logo.svg';
 import { Container, Content, Background } from './styles';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
+import ToastContainer from '../../components/ToastContainer';
 
 interface SignInFormData {
   email: string;
@@ -73,6 +74,7 @@ const SignIn: React.FC = () => {
         </a>
       </Content>
       <Background />
+      <ToastContainer />
     </Container>
   );
 };
