@@ -44,7 +44,7 @@ const SignUp: React.FC = () => {
                 placeholder="Nome"
                 icon="user"
                 returnKeyType="next"
-                onEndEditing={() => emailInputRef.current?.focus()}
+                onSubmitEditing={() => emailInputRef.current?.focus()}
               />
 
               <Input
@@ -56,7 +56,7 @@ const SignUp: React.FC = () => {
                 placeholder="E-mail"
                 icon="mail"
                 returnKeyType="next"
-                onEndEditing={() => passwordInputRef.current?.focus()}
+                onSubmitEditing={() => passwordInputRef.current?.focus()}
               />
 
               <Input
