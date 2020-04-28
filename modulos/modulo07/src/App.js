@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
+import { ToastContainer } from 'react-toastify';
 
 import './config/ReactotronConfig';
 
@@ -24,6 +25,7 @@ function App() {
         <Header />
         <Routes />
         <GlobalStyle />
+        <ToastContainer />
       </BrowserRouter>
     </Provider>
   );
