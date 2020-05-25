@@ -6,7 +6,6 @@ import AppError from '@shared/errors/AppError';
 import Appointment from '@modules/appointments/infra/typeorm/entities/Appointment';
 import INotificationsRepository from '@modules/notifications/repositories/INotificationsRepository';
 import IAppointmentsRepository from '../repositories/IAppointmentsRepository';
-import appointmentsRouter from '../infra/http/routes/appointments.routes';
 
 interface IRequest {
   date: Date;
