@@ -62,7 +62,8 @@
       "src/components/**/*.tsx",
       "src/hooks/**/*.tsx",
       "!src/hooks/index.tsx"
-    ]
+    ],
+    "clearMocks": true
   },
   "browserslist": {
     "production": [
